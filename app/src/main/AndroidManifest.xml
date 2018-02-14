@@ -2,6 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hlc.tema4">
 
+
+    <!-- Permite que una aplicación acceda a la ubicación precisa de las fuentes de -->
+
+    <!-- ubicación, como GPS, antenas de móviles y Wi-Fi gratuita -->
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Permite a las aplicaciones abrir sockets de red -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
